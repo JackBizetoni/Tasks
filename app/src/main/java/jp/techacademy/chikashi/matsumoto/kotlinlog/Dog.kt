@@ -1,3 +1,4 @@
+/*
 package jp.techacademy.chikashi.matsumoto.kotlinlog
 
 import android.util.Log
@@ -25,4 +26,4 @@ open class Dog : Animal, Movable {
         Log.d("kotlintest", this.name + "(" + this.age + "歳)" + "は全力で走った。")
     }
 
-}
+}*/

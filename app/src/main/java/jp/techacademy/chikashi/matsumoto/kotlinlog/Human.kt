@@ -2,17 +2,22 @@ package jp.techacademy.chikashi.matsumoto.kotlinlog
 
 import android.util.Log
 
+/*
+* Humanクラス
+* */
 open class Human : Animal, Thinkable {
 
-    //名前と年齢
-    constructor(name: String, age: Int) : super(name, age) {}
-    //興味のあること
-    var hobby: String = ""
+    constructor(name: String, age: Int, hobby: String) : super(name, age, hobby) {}
 
     //自己紹介
     override fun say() {
-        Log.d("kotlintest", "私の名前は" + this.name + "です。年は" + this.age + "歳です。")
+        Log.d(
+            "kotlintest",
+            "私の名前は" + this.name + "です。年は" + this.age + "歳です。"
+        )
     }
+
+    //趣味
     override fun think() {
         Log.d("kotlintest", "私は" + this.hobby + "について考える。")
     }

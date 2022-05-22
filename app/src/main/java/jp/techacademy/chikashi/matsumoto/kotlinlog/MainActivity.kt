@@ -10,21 +10,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //名前と年齢
-        val human = Human("松本親", 32)
-        human.say()
-        //興味のあること
-        human.hobby = "時事問題"
-        human.think()
+        // 私の自己紹介
+        val myProfile = Human("松本親", 32, "時事問題")
+        myProfile.say()
+        myProfile.think()
+
+        //彼の自己紹介
+        val hisProfile = Human("北野武", 75, "生と死")
+        hisProfile.say()
+        hisProfile.think()
 
 
-
-
-
-
-
-
-          /*----------------------------------*/
+        /*----------------------------------*/
         /* val dog = Dog("ポチ", 3)      // 名前をポチ、年齢3歳で、Dogのインスタンスを作る
          dog.move()
 
