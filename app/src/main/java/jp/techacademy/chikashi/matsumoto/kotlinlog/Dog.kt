@@ -1,4 +1,4 @@
-/*
+package jp.techacademy.chikashi.matsumoto.kotlinlog/*
 package jp.techacademy.chikashi.matsumoto.kotlinlog
 
 import android.util.Log
